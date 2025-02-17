@@ -31,9 +31,26 @@ main {
   align-items: center;
   height: 100vh;
   justify-content: center;
+  position: relative;
 }
 
 .logo {
   width: 25rem;
   max-width: 50vw;
+  transition: .5s ease-in-out;
+
+}
+.logo:hover {
+  transform: scale( 1.2);
+}
+
+footer {
+  padding: 1.5rem;
+  box-sizing: border-box;
+  color: #e7e7e7;
+  width: 100%;
+  font-size: 1.3rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
 }
