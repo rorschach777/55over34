@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --card-dimension: 25rem;
+  --ms-font: 'pragmatica', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,7 +37,7 @@ main {
 }
 
 .logo {
-  width: 25rem;
+  width: var(--card-dimension);
   max-width: 50vw;
   transition: .5s ease-in-out;
 
